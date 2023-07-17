@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+:root {
+    background-color: #171717;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 6.25rem;
+}
+
+header, .head {
+    display: flex;
+    justify-content: space-evenly;
+    height: 3.50rem;
+    margin-bottom: 6rem;
+    border-bottom: 2px solid white;
+}
+
+.head {
+    gap: 1.25rem;
+}
+
+#about:hover, #contact:hover {
+    border-bottom: 3px solid #9DB2BF;
+}
+
+.conversion {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+}
+
+.pixel-in, .rem-in {
+    border-radius: 1rem;
+    border: none;
+    outline: 1px solid black;
+    background: none;
+    height: 6rem;
+}
+
+.pixel-in::placeholder, .rem-in::placeholder {
+    color: white;
+}
+
+.btn, .switch-div, .contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.converter, .switch {
+    background: none;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.converter:hover, .switch:hover {
+    cursor: pointer;
+    animation: hover 1s infinite linear;
+}
+
+@keyframes hover {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-2px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+   75% {
+        transform: translateY(2px);
+    }
+    1000% {
+        transform: translateY(0px);
+    }
+}
+
+.contacts {
+    gap: 3rem;
+}
+
+/*
+
+
+  ______ _____ _______ _     _ _     _ ______    _______  _____  _______    / __   _  _____  _______        _______ _______ ______   _____ 
+ |  ____   |      |    |_____| |     | |_____]   |       |     | |  |  |   /  | \  | |     |    |    |      |_____| |  |  | |_____] |     |
+ |_____| __|__    |    |     | |_____| |_____] . |_____  |_____| |  |  |  /   |  \_| |_____|    |    |_____ |     | |  |  | |_____] |_____|
+                                                                         /                                                                 
+
+
+*/

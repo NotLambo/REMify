@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>REMify | Github.com/NotLambo</title>
+        <meta name="description" content="Pixels To REM Converter">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" async defer></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <img src="assests/logo-white.png">
+                <div class="head">
+                    <a id="about" href="#about-page"><h3 style="color: white; font-family: 'Lugrasimo', cursive;">About</h3></a>
+                    <a id="contact" href="#contact-page"><h3 style="color: white; font-family: 'Lugrasimo', cursive;">Contact</h3></a>
+                </div>
+            </header>
+            <div class="main">
+                <div class="conversion">
+                    <div class="pixels">
+                        <h2 style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">Pixels.</h2>
+                        <div class="in-out-put">
+                            <input class="pixel-in" type="number" placeholder="Enter Pixel Size." style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">
+                        </div>
+                    </div>
+                    <div class="rem hidden">
+                        <h2 style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">REM.</h2>
+                        <div class="in-out-put">
+                            <input class="rem-in" type="number" placeholder="Enter REM Size." style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="converter"><h1 class="con-text" style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">Convert To REM.</h1></button>
+                </div>
+            </div>
+            <div class="output hidden">
+                <p class="result" style="color: greenyellow; font-family: 'Lugrasimo', cursive; text-align: center;">TBD.</p>
+            </div>
+            <div class="switch-div" style="margin-bottom: 21rem;">
+                <button class="switch" style="padding: 1rem;color: white; font-family: 'Lugrasimo', cursive; text-align: center;">REM To Pixels.</button>
+            </div>
+            <hr>
+            <div id="about-page">
+                <h1 style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">About.</h1>
+                <p style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">We made REMify because this is 2023. Web Development has came a long way and its time too leave pixels in the past. Lets learn the new modern CSS sizing methods. REM, EM, VH, etc.</p>
+                <h3 style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">How REMify Works.</h3>
+                <p style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">A user enters a REM/Pixels amount and our program determines which method too use, then it does some calculations and returns the specified amount too the user.<br>For example lets say we (a user) enters 500 Pixels and we want too change this too rem.<br>Our program would take that amount and divide it by 16 and return: 31.25 REM.</p>
+            </div>
+            <hr>
+            <div id="contact-page">
+                <h1 style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">Contact.</h1>
+                <p style="color: white; font-family: 'Lugrasimo', cursive; text-align: center;">You can contact us at the following links.</p>
+                <div class="contacts">
+                    <a class="git" href="https://github.com/notlambo" rel="noopener noreferrer" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="mix-blend-mode: multiply;"></a>
+                    <a class="twitter" href="https://twitter.com/not_lambo" rel="noopener noreferrer" target="_blank"><img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png"></a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
+
+<!--
+
+
+  ______ _____ _______ _     _ _     _ ______    _______  _____  _______    / __   _  _____  _______        _______ _______ ______   _____ 
+ |  ____   |      |    |_____| |     | |_____]   |       |     | |  |  |   /  | \  | |     |    |    |      |_____| |  |  | |_____] |     |
+ |_____| __|__    |    |     | |_____| |_____] . |_____  |_____| |  |  |  /   |  \_| |_____|    |    |_____ |     | |  |  | |_____] |_____|
+                                                                         /                                                                 
+
+
+-->
