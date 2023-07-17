@@ -11,5 +11,8 @@ Release;
 - Responsive
 - Nav Bar (UI needs too be improved)
 
+Minor Fixes;
+- Fixed Anchor Tag Text Decoration.
+
 Update 1;
 - TBD.
